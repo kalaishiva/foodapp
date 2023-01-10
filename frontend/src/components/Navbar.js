@@ -4,9 +4,9 @@ import Logo from '../images/logo.jpeg';
 
 const Navbar = () => {
   return (
-    <div className='bg-[#fec4a466] '>
+    <div className='bg-[#fec4a466] pt-3'>
         <header class="text-gray-600 body-font">
-  <div class="container mx-auto flex flex-wrap  py-[3.25rem] flex-col md:flex-row items-center">
+  <div class="container mx-auto flex flex-wrap  py-[0.25rem] flex-col md:flex-row items-center">
     <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
     
   <img src={Logo} alt="Logo" style={{width:'70px', height: '70px' }} />
@@ -15,8 +15,8 @@ const Navbar = () => {
       <span class="ml-[2.5rem]  text-4xl text-[#394E38]">Desi Veggie</span>
     </a>
     <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
-      <a class="mr-5  text-[#542B0E] font-semibold text-3xl hover:text-gray-900">Home</a>
-      <a class="mr-5  text-[#542B0E] font-semibold text-3xl hover:text-gray-900">About Us</a>
+      <a class="mr-8  text-[#542B0E] font-semibold text-3xl hover:text-gray-900">Home</a>
+      <a class=" text-[#542B0E] font-semibold text-3xl hover:text-gray-900">About Us</a>
     </nav>
 
 <div className=''>

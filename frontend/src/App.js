@@ -1,6 +1,10 @@
-import './App.css';
+import  './App.css';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
+import Dishesbtn from './components/Dishesbtn';
+import DishesCard from './components/DishesCard';
+import BestSeller from './components/BestSeller';
+import OurStory from './components/OurStory';
 
 function App() {
   return (
@@ -8,6 +12,10 @@ function App() {
      
      <Navbar/>
      <Hero />
+     <Dishesbtn />
+     <DishesCard />
+     <BestSeller />
+     <OurStory />
     </div>
   );
 }

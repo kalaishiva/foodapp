@@ -36,3 +36,19 @@
         transform: rotate(360deg);
     }
 }
+
+.brownBtn {
+    background-color: #542B0E;
+}
+
+.brownBtn:hover {
+    background-color: #935c35;
+}
+
+.greenBtn {
+    background-color: #394E38;
+}
+
+.greenBtn:hover {
+    background-color: #497247;
+}
